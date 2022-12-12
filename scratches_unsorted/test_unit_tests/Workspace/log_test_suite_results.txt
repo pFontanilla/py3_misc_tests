@@ -1,0 +1,21 @@
+Num of tests: 4
+Num of passed tests: 1
+Num of erroneous tests: 1
+Num of failed tests: 2
+
+All Erroneous Tests:
+
+Erroneous Test Num '1':
+	Erroneous Test: test_PeripheryCom2 (test2.TestPeripheryCommunication2)
+	Error Details: 'Traceback (most recent call last):\n  File "C:\\Users\\s0087139.TA1\\.PyCharmCE2019.1\\config\\scratches\\test_unit_tests\\Workspace\\test2.py", line 23, in test_PeripheryCom2\n    if fake_list[3] == 7:\nIndexError: list index out of range\n'
+
+All Failed Tests:
+
+Failed Test Num '1':
+	Failed Test: test_PeripheryCom3 (test1.TestPeripheryCommunication1)
+	Failure Details: 'Traceback (most recent call last):\n  File "C:\\Users\\s0087139.TA1\\.PyCharmCE2019.1\\config\\scratches\\test_unit_tests\\Workspace\\test1.py", line 18, in test_PeripheryCom3\n    assertResultsEqual("hi", "bye")\n  File "C:\\Users\\s0087139.TA1\\.PyCharmCE2019.1\\config\\scratches\\test_unit_tests\\Workspace\\assertTestValues.py", line 21, in assertResultsEqual\n    unit_asserts.assertEqual(actualValue, expected)\nAssertionError: \'hi\' != \'bye\'\n- hi\n+ bye\n\n'
+
+Failed Test Num '2':
+	Failed Test: test_PeripheryCom1 (test2.TestPeripheryCommunication2)
+	Failure Details: 'Traceback (most recent call last):\n  File "C:\\Users\\s0087139.TA1\\.PyCharmCE2019.1\\config\\scratches\\test_unit_tests\\Workspace\\test2.py", line 18, in test_PeripheryCom1\n    assertResultsEqual("hi", "bye")\n  File "C:\\Users\\s0087139.TA1\\.PyCharmCE2019.1\\config\\scratches\\test_unit_tests\\Workspace\\assertTestValues.py", line 21, in assertResultsEqual\n    unit_asserts.assertEqual(actualValue, expected)\nAssertionError: \'hi\' != \'bye\'\n- hi\n+ bye\n\n'
+
